@@ -1,0 +1,18 @@
+body{
+    background-image: url("../pictures/ourSpaceBack.png");
+}
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+#logo{
+    color: white;
+    font-size: 250%;
+    border: hidden;
+    border-color: rgba(255, 255, 255, 0);
+    border-width: 8px;
+    padding: 1%;
+    transition: border-color 3s;
+}
