@@ -1,0 +1,41 @@
+body{
+    background-image: url("../pictures/ourSpaceBack.png");
+}
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-flow: wrap;
+}
+#logo{
+    color: white;
+    font-size: 250%;
+    border: hidden;
+    border-color: rgba(255, 255, 255, 0);
+    border-width: 8px;
+    padding: 1%;
+    transition: border-color 3s;
+}
+#formwhole{
+    display: inline-grid;
+    width: 100%;
+}
+#username{
+   grid-column: 1/2;
+   grid-row: 1/2; 
+}
+#password{
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+#createaccount{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.direction{
+    text-align: center;
+    color: white;
+    border: solid;
+    border-color: white;
+}
