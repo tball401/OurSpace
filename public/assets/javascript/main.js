@@ -19,6 +19,7 @@ function add(text, id){
     if (i == text.length){
         clearInterval(type);
         element.style.border = "solid";
+        element.style.backgroundColor = "#4d3c63"
     }
 }
 
