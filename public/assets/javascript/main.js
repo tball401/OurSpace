@@ -1,6 +1,7 @@
 var i = 0;
 var type = setInterval(function(){add("OurSpace", "logo")}, 150);
 var title = document.getElementById("logo");
+var login = document.getElementById("submit");
 
 title.addEventListener("mouseover", function(event){
     this.innerHTML = "Log In";
@@ -27,4 +28,3 @@ function changeText(text, id){
     var element = document.getElementById(id);
     element.innerHTML = "Log In";
 }
-

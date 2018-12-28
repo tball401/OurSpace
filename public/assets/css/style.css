@@ -30,14 +30,14 @@
     background-color: #4d3c63;
 }
 #username{
-   padding-right: 10%; 
-   padding-left: 10%; 
+   padding-right: 15%; 
+   padding-left: 15%; 
    grid-column: 1/2;
    grid-row: 1/2; 
 }
 #submit{
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 15%;
+    padding-right: 15%;
     grid-column: 1/2;
     grid-row: 2/3;
 }
