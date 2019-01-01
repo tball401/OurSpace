@@ -24,28 +24,32 @@
 #formwhole{
     display: inline-grid;
     width: 30%;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-gap: 2%;
     align-content: center;
     background-color: #4d3c63;
 }
 #username{
-   padding-right: 15%; 
-   padding-left: 15%; 
-   grid-column: 1/2;
-   grid-row: 1/2; 
+    padding-left: 5%;
+    grid-column: 1/2;
+    grid-row:  1/2;
+}
+#password{
+    padding-right: 5%;
+    grid-column: 2/3;
+    grid-row: 1/2;
 }
 #submit{
     padding-left: 15%;
     padding-right: 15%;
-    grid-column: 1/2;
-    grid-row: 2/3;
+    grid-column: 1/3;
+    grid-row: 3/4;
 }
 #createaccount{
     padding-left: 30%;
     padding-right: 30%;
-    grid-column: 1/2;
-    grid-row: 3/4;
+    grid-column: 1/3;
+    grid-row: 4/5;
 }
 .input > input{
     display: block;
@@ -56,4 +60,7 @@
     color: white;
     border: solid;
     border-color: white;
+}
+#dashbackground{
+    background-color: #95afb6
 }
